@@ -1,8 +1,10 @@
 .cuadro{
     border: 2px solid #000;
-    height: 5vh;
+    padding: 10px;
     margin-bottom: 2vh;
     width: 90%;
+    justify-content: center;
+    align-content: center;
 }
 .cuadro1{
     background:#b53471;
@@ -13,3 +15,46 @@
 .cuadro3{
     background:#ca5620;
 }
+
+/* Media query para ajustes de visualización, modificar tamaños, elementos */
+
+/*para impresiones*/
+@media print {} 
+/*para todas las pantallas*/
+@media screen{}
+
+/* media query a partir de 768px*/
+@media all and (min-width: 768px) {
+    .cuadro{
+        float:left;
+        margin-right: 10%;
+        /* margin-bottom: 5vh; */
+        width:20%;
+    }
+    .cuadro1{
+        background-color: #fbc531;
+    }
+}
+/*media query a partir de 1200px*/
+@media all and (min-width:1200px){
+    .cuadro{
+        float:left;
+        margin-right: 2%;
+        /* margin-bottom: 5vh; */
+        width:30%;
+    }
+    .cuadro1{
+        background-color: #fbc531;
+    }
+}
+
+/* FORMULARIO  */
+.form-group{
+    text-align: center; 
+}
+.form-group label{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2em;
+    
+}
+/* FIN FORMULARIO */
