@@ -47,3 +47,21 @@
         background-color: #fbc531;
     }
 }
+
+/*Cambio de color de etiqueta body */
+
+@media screen and (max-width:1920px){
+    body{
+        background-color:cadetblue;
+    }
+}
+@media screen and (max-width:1280px){
+    body{
+        background-color: burlywood;
+    }
+}
+@media screen and (max-width:800px){
+    body{
+        background-color:aquamarine;
+    }
+}
